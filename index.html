@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1>HTML Exercise:</h1>
-    <fieldset>
+    <fieldset style="width: 35%">
       <form action="">
         <fieldset>
           <legend>
@@ -20,27 +20,52 @@
           <br />
           <label for="pw">Password*</label>
           <br />
-          <input type="text" name="pw" id="pw" />
+          <input type="password" name="pw" id="pw" />
         </fieldset>
         <fieldset>
           <legend>
             <h3>Gender*</h3>
           </legend>
-          <input type="radio">
+          <input type="radio" name="gender" />
           <label for="male">Male</label>
-          <input type="radio">
+          <input type="radio" name="gender" />
           <label for="female">Female</label>
         </fieldset>
         <fieldset>
           <legend>
             <h3>Programming Skill</h3>
           </legend>
+          <input type="checkbox" name="java" id="java" />
+          <label for="java">Java</label>
+          <input type="checkbox" name="cpp" id="cpp" checked />
+          <label for="cpp">C++</label>
+          <input type="checkbox" name="csharp" id="csharp" />
+          <label for="csharp">C#</label>
         </fieldset>
         <fieldset>
           <legend>
             <h3>Fruit</h3>
           </legend>
+          <label for="fruit">Chose a fruit: </label>
+          <select name="fruit" id="fruit">
+            <option value="Banana">Banana</option>
+            <option value="apple">Apple</option>
+            <option value="fig">Fig</option>
+            <option value="straw">Strawberry</option>
+          </select>
         </fieldset>
+        <div>
+          <textarea
+            name="tbox"
+            id="tbox"
+            cols="50"
+            rows="10"
+            placeholder="Enter your comment here"
+          ></textarea>
+          <br />
+          <button type="submit">SEND</button>
+          <button>RESET</button>
+        </div>
       </form>
     </fieldset>
   </body>

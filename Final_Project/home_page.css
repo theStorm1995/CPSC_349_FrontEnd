@@ -40,23 +40,42 @@ nav a:hover {
   text-decoration: underline;
 }
 
+
+
+/* header backgroud image */
+
 .header_img_container {
-  position: relative;
+  /* position: relative;
   width: 100%;
   text-align: center;
   color: black;
+  font-family: "Climate Crisis", cursive; */
+
+  position: relative;
+  width: 100%;
+
+  text-align: center;
+  color: white;
+  font-size: 70px;
   font-family: "Climate Crisis", cursive;
 }
 
+
+/* header text style */
 .header_img_text {
   position: absolute;
-  line-height: 0;
+  top: 120px;
+  left: 100px;
+  font-family: "Climate Crisis", cursive;
 }
 
-.header_img {
-  width: 100%;
+/* .header_img_text {
   position: relative;
-}
+  height: 20vh;
+  width: 50vw;
+  font-family: "Climate Crisis", cursive;
+} */
+
 
 .main_sections {
   background-color: lightgray;

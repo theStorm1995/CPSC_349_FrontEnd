@@ -12,12 +12,13 @@ a {
 /* Header Styles */
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: lightgrey;
+  font-family: "Climate Crisis", cursive;
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 5px;
 }
 
 nav ul {
@@ -32,9 +33,32 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: black;
 }
 
 nav a:hover {
   text-decoration: underline;
+}
+
+.header_img_container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family: "Climate Crisis", cursive;
+}
+
+.header_img_text {
+  position: absolute;
+  line-height: 0;
+}
+
+.header_img {
+  width: 100%;
+  position: relative;
+}
+
+.main_sections {
+  background-color: lightgray;
+  height: 500px;
 }
